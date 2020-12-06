@@ -18,6 +18,11 @@ const template = [
       {
         label: 'Dev Tools',
         role: 'toggleDevTools'
+      },
+      { type: 'separator' },
+      {
+        role: 'reload',
+        accelerator: 'Alt+R'
       }
     ]
   }
